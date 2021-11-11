@@ -1,6 +1,6 @@
-hypeStash
-=========
-![Elgg 3.0](https://img.shields.io/badge/Elgg-3.0.x-orange.svg?style=flat-square)
+Pessek Stash
+=============
+![Elgg 4.0](https://img.shields.io/badge/Elgg-4.0-green.svg)
 
 API for caching common entity data to reduce DB queries
 

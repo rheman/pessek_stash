@@ -1,5 +1,5 @@
 {
-	"name": "pessek/hypestash",
+	"name": "pessek/pessek_stash",
 	"type": "elgg-plugin",
 	"description": "API for caching common counters to reduce DB queries",
 	"keywords": [
@@ -13,15 +13,24 @@
 		}
 	],
 	"extra": {
-		"installer-name": "hypeStash"
+		"installer-name": "pessek_stash"
 	},
 	"require": {
-		"php": ">=7.0",
-		"composer/installers": "~1.0"
+		"php": ">=7.4",
+		"composer/installers": "^1.0.8"
 	},
 	"autoload": {
 		"psr-0": {
 			"": "classes/"
 		}
-	}
+	},
+	"repositories": [
+		{
+            		"type": "composer",
+            		"url": "https://asset-packagist.org"
+		}
+	],
+        "conflict": {
+                "elgg/elgg": "<4.0"
+        }
 }
